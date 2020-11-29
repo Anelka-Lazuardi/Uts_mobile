@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uts_mobile/views/MainPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,62 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Kelompok 4',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: Scaffold(
-        appBar: AppBar(
-          leading: Icon(Icons.arrow_back),
-          title: Text("Konsultasi"),
-          centerTitle: false,
+        title: 'Kelompok 4',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-
-        // body: ListView(
-        //   children: <Widget>[
-        //     Text(
-        //       'Tanya KRS',
-        //       style: TextStyle(
-        //         //fontStyle: FontStyle.italic,
-        //         fontSize: 20,
-        //       ),
-        //     ),
-        //     Text(
-        //       'Pilih Pemintaan',
-        //       style: TextStyle(
-        //         //fontStyle: FontStyle.italic,
-        //         fontSize: 20,
-        //       ),
-        //     ),
-        //   ],
-        //
-        //
-        // ),
-
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              RaisedButton(
-                onPressed: () {},
-                child: Text("UI 1"),
-                color: Colors.amber,
-                textColor: Colors.white,
-              ),
-              RaisedButton(
-                onPressed: () {},
-                child: Text("UI 2"),
-              ),
-              RaisedButton(
-                onPressed: () {},
-                child: Text("UI 3"),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
+        home: MainPage());
   }
 }
