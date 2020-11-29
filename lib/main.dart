@@ -22,48 +22,48 @@ class MyApp extends StatelessWidget {
           centerTitle: false,
         ),
 
-        body: ListView(
-          children: <Widget>[
-            Text(
-              'Tanya KRS',
-              style: TextStyle(
-                //fontStyle: FontStyle.italic,
-                fontSize: 20,
-              ),
-            ),
-            Text(
-              'Pilih Pemintaan',
-              style: TextStyle(
-                //fontStyle: FontStyle.italic,
-                fontSize: 20,
-              ),
-            ),
-          ],
-
-
-        ),
-
-        // body: Center(
-        //   child: Column(
-        //     mainAxisAlignment: MainAxisAlignment.spaceAround,
-        //     children: [
-        //       RaisedButton(
-        //         onPressed: () {},
-        //         child: Text("UI 1"),
-        //         color: Colors.amber,
-        //         textColor: Colors.white,
+        // body: ListView(
+        //   children: <Widget>[
+        //     Text(
+        //       'Tanya KRS',
+        //       style: TextStyle(
+        //         //fontStyle: FontStyle.italic,
+        //         fontSize: 20,
         //       ),
-        //       RaisedButton(
-        //         onPressed: () {},
-        //         child: Text("UI 2"),
+        //     ),
+        //     Text(
+        //       'Pilih Pemintaan',
+        //       style: TextStyle(
+        //         //fontStyle: FontStyle.italic,
+        //         fontSize: 20,
         //       ),
-        //       RaisedButton(
-        //         onPressed: () {},
-        //         child: Text("UI 3"),
-        //       ),
-        //     ],
-        //   ),
+        //     ),
+        //   ],
+        //
+        //
         // ),
+
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              RaisedButton(
+                onPressed: () {},
+                child: Text("UI 1"),
+                color: Colors.amber,
+                textColor: Colors.white,
+              ),
+              RaisedButton(
+                onPressed: () {},
+                child: Text("UI 2"),
+              ),
+              RaisedButton(
+                onPressed: () {},
+                child: Text("UI 3"),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
