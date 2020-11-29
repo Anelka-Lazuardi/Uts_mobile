@@ -14,17 +14,26 @@ class Ui2 extends StatelessWidget {
             children: [
               ListTile(
                 title: Text("Tanya KRS"),
-                leading: Icon(Icons.forum, size: 20.0,),
+                // leading: Icon(Icons.forum, size: 20.0,),
                 trailing: Text("4"),
+              ),
 
+              Divider(
+                color: Colors.black,
               ),
 
               ListTile(
                 title: Text("Pilihan Peminatan"),
               ),
+
+              Divider(
+                color: Colors.black,
+              ),
+
             ],
           ),
         ),
+
         Flexible(
           flex: 1,
           child: SizedBox.expand(
