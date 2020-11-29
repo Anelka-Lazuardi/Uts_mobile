@@ -7,7 +7,13 @@ class Ui2 extends StatelessWidget {
       appBar: AppBar(
         title: Text('Konsultasi'),
       ),
-
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.orange,
+        foregroundColor: Colors.white,
+        elevation: 0.0,
+        onPressed: () {},
+        child: Icon(Icons.message),
+      ),
       body: Column(children: [
         Flexible(
           flex: 8,
