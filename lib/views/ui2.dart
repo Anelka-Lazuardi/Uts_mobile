@@ -14,9 +14,11 @@ class Ui2 extends StatelessWidget {
             children: [
               ListTile(
                 title: Text("Tanya KRS"),
-                leading: Icon(Icons.message),
+                leading: Icon(Icons.forum, size: 20.0,),
                 trailing: Text("4"),
+
               ),
+
               ListTile(
                 title: Text("Pilihan Peminatan"),
               ),
