@@ -21,7 +21,7 @@ class MainPage extends StatelessWidget {
                 );
               },
               child: Text("UI 1"),
-              color: Colors.amber,
+              color: Color(0xFFfd8c04),
               textColor: Colors.white,
             ),
             RaisedButton(
