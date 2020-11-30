@@ -7,6 +7,7 @@ class Ui3 extends StatelessWidget {
       appBar: AppBar(
         title: Text('Konsultasi'),
       ),
+<<<<<<< HEAD
       body:
           Column(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
         Container(
@@ -87,6 +88,38 @@ class Ui3 extends StatelessWidget {
                 )
               ],
             ),
+=======
+
+      body: Column(children: [
+        Flexible(
+          flex: 8,
+          child: ListView(
+            children: [
+              ListTile(
+                title: Text("Tanya KRS"),
+                // leading: Icon(Icons.forum, size: 20.0,),
+                // trailing: Text("4"),
+              ),
+
+              Divider(
+                color: Colors.black,
+              ),
+
+              ListTile(
+                title: Text("Pak mohon maaf, untuk semester ini, sebaiknya mata kuliah apa saja yang saya ambil."),
+              ),
+
+              ListTile(
+                title: Text("Terimakasih Sebelumnya"),
+              ),
+
+              ListTile(
+              tileColor: Colors.lightBlue[100],
+                title: Text("Sebaiknya Pilih Matakuliah : \n -  Pemrograman Mobile \n -  Kecerdasan Buatan"),
+              ),
+
+            ],
+>>>>>>> 29511bf8b4719607adc6913781a3756152f2cb01
           ),
         ),
       ]),
