@@ -22,7 +22,8 @@ class Ui2 extends StatelessWidget {
               ListTile(
                 title: Text("Tanya KRS"),
                 // leading: Icon(Icons.forum, size: 20.0,),
-                trailing: Text("4"),
+                trailing:  Icon(Icons.question_answer, size: 20.0,),
+
               ),
 
               Divider(
