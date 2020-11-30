@@ -16,7 +16,7 @@ class Ui3 extends StatelessWidget {
               ListTile(
                 title: Text("Tanya KRS"),
                 // leading: Icon(Icons.forum, size: 20.0,),
-                trailing: Text("4"),
+                // trailing: Text("4"),
               ),
 
               Divider(
