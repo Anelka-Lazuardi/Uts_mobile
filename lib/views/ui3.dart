@@ -32,9 +32,8 @@ class Ui3 extends StatelessWidget {
               ),
 
               ListTile(
-                title: Text("Sebaiknya Pilih Matakuliah:"
-                    "- Pemrograman Mobile"
-                    "- Kecerdasan Buatan"),
+              tileColor: Colors.lightBlue[100],
+                title: Text("Sebaiknya Pilih Matakuliah : \n -  Pemrograman Mobile \n -  Kecerdasan Buatan"),
               ),
 
             ],
