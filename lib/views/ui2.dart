@@ -7,7 +7,13 @@ class Ui2 extends StatelessWidget {
       appBar: AppBar(
         title: Text('Konsultasi'),
       ),
-
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.orange,
+        foregroundColor: Colors.white,
+        elevation: 0.0,
+        onPressed: () {},
+        child: Icon(Icons.message),
+      ),
       body: Column(children: [
         Flexible(
           flex: 8,
@@ -15,8 +21,7 @@ class Ui2 extends StatelessWidget {
             children: [
               ListTile(
                 title: Text("Tanya KRS"),
-                // leading: Icon(Icons.forum, size: 20.0,),
-                trailing: Text("4"),
+                trailing: Icon(Icons.question_answer, size: 30.0, color: Colors.black,),
               ),
 
               Divider(
