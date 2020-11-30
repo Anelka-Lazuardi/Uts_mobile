@@ -11,6 +11,7 @@ class Ui1 extends StatelessWidget {
         Flexible(
           flex: 8,
           child: ListView(
+            itemExtent: 30.0,
             children: [
               ListTile(
                 title: Text("Bimbingan Akademik"),
@@ -28,13 +29,21 @@ class Ui1 extends StatelessWidget {
           ),
         ),
         Flexible(
-          flex: 1,
+          flex: 2,
           child: SizedBox.expand(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(8, 8, 8, 17),
+              padding: const EdgeInsets.fromLTRB(10, 10, 10, 20),
               child: RaisedButton(
                 onPressed: () {},
-                child: Text("Konsultasi Dosen PA"),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20)),
+                child: Text(
+                  "Konsultasi Dosen PA",
+                  style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.w400,
+                  ),
+                ),
                 textColor: Colors.white,
                 color: Color(0xFFfd8c04),
               ),
