@@ -21,9 +21,7 @@ class Ui2 extends StatelessWidget {
             children: [
               ListTile(
                 title: Text("Tanya KRS"),
-                // leading: Icon(Icons.forum, size: 20.0,),
-                trailing:  Icon(Icons.question_answer, size: 20.0,),
-
+                trailing: Icon(Icons.question_answer, size: 30.0,),
               ),
 
               Divider(
