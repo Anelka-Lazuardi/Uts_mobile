@@ -34,8 +34,8 @@ class MainPage extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => Ui2()),
                 );
               },
-              child: Text("UI 3"),
-              color: Color(0xFFfd8c04),
+              child: Text("UI 2"),
+              color: Color(0xFF0277BD),
               textColor: Colors.white,
             ),
             RaisedButton(
@@ -47,7 +47,7 @@ class MainPage extends StatelessWidget {
               },
               child: Text("UI 3"
                   ""),
-              color: Color(0xFFfd8c04),
+              color: Color(0xFF388E3C),
               textColor: Colors.white,
             ),
           ],
