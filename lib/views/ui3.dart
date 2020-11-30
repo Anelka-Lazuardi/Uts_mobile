@@ -27,6 +27,16 @@ class Ui3 extends StatelessWidget {
                 title: Text("Pak mohon maaf, untuk semester ini, sebaiknya mata kuliah apa saja yang saya ambil."),
               ),
 
+              ListTile(
+                title: Text("Terimakasih sebelumnya"),
+              ),
+
+              ListTile(
+                title: Text("Sebaiknya Pilih Matakuliah:"
+                    "- Pemrograman Mobile"
+                    "- Kecerdasan Buatan"),
+              ),
+
             ],
           ),
         ),
