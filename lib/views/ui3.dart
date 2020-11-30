@@ -24,11 +24,7 @@ class Ui3 extends StatelessWidget {
               ),
 
               ListTile(
-                title: Text("Pilihan Peminatan"),
-              ),
-
-              Divider(
-                color: Colors.black,
+                title: Text("Pak mohon maaf, untuk semester ini, sebaiknya mata kuliah apa saja yang saya ambil."),
               ),
 
             ],
