@@ -45,7 +45,8 @@ class MainPage extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => Ui3()),
                 );
               },
-              child: Text("UI 3"),
+              child: Text("UI 3"
+                  ""),
               color: Color(0xFFfd8c04),
               textColor: Colors.white,
             ),
