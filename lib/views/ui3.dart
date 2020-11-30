@@ -28,7 +28,7 @@ class Ui3 extends StatelessWidget {
               ),
 
               ListTile(
-                title: Text("Terimakasih sebelumnya"),
+                title: Text("Terimakasih Sebelumnya"),
               ),
 
               ListTile(
