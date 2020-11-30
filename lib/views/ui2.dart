@@ -17,12 +17,12 @@ class Ui2 extends StatelessWidget {
       body: Column(children: [
         Flexible(
           flex: 8,
-          child: Row(
-            children:  [
-               ListTile(
+          child: ListView(
+            children: [
+              ListTile(
                 title: Text("Tanya KRS"),
-                 trailing: Icon(Icons.question_answer, size: 30.0, color: Colors.black,),
-               ),
+                trailing: Icon(Icons.question_answer, size: 30.0, color: Colors.black,),
+              ),
 
               Divider(
                 color: Colors.black,
