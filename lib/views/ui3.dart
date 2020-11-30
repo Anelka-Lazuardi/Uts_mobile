@@ -7,7 +7,6 @@ class Ui3 extends StatelessWidget {
       appBar: AppBar(
         title: Text('Konsultasi'),
       ),
-<<<<<<< HEAD
       body:
           Column(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
         Container(
@@ -29,11 +28,6 @@ class Ui3 extends StatelessWidget {
                 ListTile(
                   title: Text("Terimakasih sebelumnya"),
                 ),
-                // ListTile(
-                //   title: Text("Sebaiknya Pilih Matakuliah:"
-                //       "- Pemrograman Mobile"
-                //       "- Kecerdasan Buatan"),
-                // ),
                 Container(
                   color: Color(0xFFB8DEFF),
                   child: Padding(
@@ -55,6 +49,7 @@ class Ui3 extends StatelessWidget {
           ),
         ),
         Container(
+          height: 100,
           child: Flexible(
             child: Row(
               children: <Widget>[
@@ -64,15 +59,17 @@ class Ui3 extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: TextField(
                       keyboardType: TextInputType.multiline,
-                      maxLines: 8,
+                      maxLines: 1,
                       decoration: new InputDecoration(
                         focusedBorder: OutlineInputBorder(
                           borderSide:
-                              BorderSide(color: Colors.black, width: 1.0),
+                              BorderSide(color: Colors.blue, width: 1.0),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         enabledBorder: OutlineInputBorder(
                           borderSide:
                               BorderSide(color: Colors.black, width: 1.0),
+                          borderRadius: BorderRadius.circular(10.0),
                         ),
                         // hintText: 'Mobile Number',
                       ),
@@ -82,44 +79,16 @@ class Ui3 extends StatelessWidget {
                 new Flexible(
                   flex: 1,
                   child: FlatButton(
-                    child: Icon(Icons.send),
+                    padding: new EdgeInsets.all(0.0),
+                    child: Icon(
+                      Icons.send,
+                      size: 60,
+                    ),
                     onPressed: () {},
                   ),
                 )
               ],
             ),
-=======
-
-      body: Column(children: [
-        Flexible(
-          flex: 8,
-          child: ListView(
-            children: [
-              ListTile(
-                title: Text("Tanya KRS"),
-                // leading: Icon(Icons.forum, size: 20.0,),
-                // trailing: Text("4"),
-              ),
-
-              Divider(
-                color: Colors.black,
-              ),
-
-              ListTile(
-                title: Text("Pak mohon maaf, untuk semester ini, sebaiknya mata kuliah apa saja yang saya ambil."),
-              ),
-
-              ListTile(
-                title: Text("Terimakasih Sebelumnya"),
-              ),
-
-              ListTile(
-              tileColor: Colors.lightBlue[100],
-                title: Text("Sebaiknya Pilih Matakuliah : \n -  Pemrograman Mobile \n -  Kecerdasan Buatan"),
-              ),
-
-            ],
->>>>>>> 29511bf8b4719607adc6913781a3756152f2cb01
           ),
         ),
       ]),

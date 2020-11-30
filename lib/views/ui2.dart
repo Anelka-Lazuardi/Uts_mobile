@@ -21,22 +21,30 @@ class Ui2 extends StatelessWidget {
             children: [
               ListTile(
                 title: Text("Tanya KRS"),
-                trailing: Icon(Icons.question_answer, size: 29.0, color: Colors.black,),
-
+                trailing: Wrap(
+                  spacing: 12, // space between two icons
+                  children: <Widget>[
+                    Icon(
+                      Icons.question_answer,
+                      size: 29.0,
+                      color: Colors.black,
+                    ), // icon-1
+                    Text(
+                      "4",
+                      style: TextStyle(fontSize: 27),
+                    ), // icon-2
+                  ],
+                ),
               ),
-
               Divider(
                 color: Colors.black,
               ),
-
               ListTile(
                 title: Text("Pilihan Peminatan"),
               ),
-
               Divider(
                 color: Colors.black,
               ),
-
             ],
           ),
         ),
@@ -55,7 +63,6 @@ class Ui2 extends StatelessWidget {
         //     ),
         //   ),
         // ),
-
       ]),
     );
   }
